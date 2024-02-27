@@ -14,7 +14,7 @@ let fullName = firstName + ' ' + lastName
 console.log( fullName );
 // 4 - Create a variable called `luckyNumber` and assign it the value of your lucky number.
 //     Console log the value of `luckyNumber`
-let luckyNumber = 8;
+let luckyNumber = 2;
 console.log(luckyNumber);
 
 // 5 - Create a variable `introduction` and using the variables from above,
@@ -67,6 +67,15 @@ if( adventurous ){
 //      if luckyNumber is 2 and adventurous is true,
 //      set `diceRoll` to be "Roll the dice!"
 //      Console log the value of `diceRoll`
+let diceRoll = 'Try again later.';
+if( luckyNumber == 2 && adventurous){
+  diceRoll = 'Roll the dice!';
+  console.log(diceRoll)
+}// end dice roll 
+else {
+  console.log(diceRoll);
+}
+
 
 // 14 - Create a variable called `petStatus`. 
 //      Write a conditional that covers the following:
@@ -76,7 +85,6 @@ if( adventurous ){
 //      set `petStatus` to the value of "I have enough pets" 
 //      if the value of `pets` is greater than the value of `allowedPets`.
 //      set `petStatus` to the value of "Oh no, I have too many pets!"
-
 
 // STRETCH GOALS:
 
