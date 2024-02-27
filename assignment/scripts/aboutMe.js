@@ -37,7 +37,7 @@ console.log(food);
 
 // 8 - Create a variable called `pets` and set it to the value of the number of pets you have
 //     Console log the value of `pets`
-let pets = 8;
+let pets = 4000;
 console.log(pets);
 
 // 9 - Create a variable called `friendsPets` and assign it the value of the number of pets your friend has
@@ -47,7 +47,7 @@ console.log(friendsPets);
 pets += 2; 
 console.log(pets);
 // 11 - Create a constant variable called `allowedPets` and set it to a number value of your choice
-const allowedPets = 8;
+const allowedPets = 11;
 console.log(allowedPets);
 // 12 - Create a variable called `result`. Create a conditional:
 //      if adventurous is true, set `result` to be "Adventures are great!", 
@@ -88,12 +88,10 @@ else {
 let petStatus; 
 if( pets < allowedPets){
   petStatus = 'I can have more pets';
-}
-  else if(pets == allowedPets){
+} else if((pets === allowedPets)){
   petStatus = 'I have enough pets'; 
-}
-    else if(pets > allowedPets){
-    petStatus = 'Oh no, I have too many pets!';  
+} else if(pets > allowedPets){
+  petStatus = 'Oh no, I have too many pets!';  
 }
 
 console.log(petStatus);
