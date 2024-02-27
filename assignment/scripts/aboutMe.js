@@ -32,14 +32,20 @@ console.log(adventurous);
 
 // 7 - Create a variable named `food`, and set its value to a string of your favorite food
 //     Console log the value of `food`
+let food = 'strawberry ice cream'
+console.log(food);
 
 // 8 - Create a variable called `pets` and set it to the value of the number of pets you have
 //     Console log the value of `pets`
+let pets = 2
+console.log(pets);
 
 // 9 - Create a variable called `friendsPets` and assign it the value of the number of pets your friend has
-
+let friendsPets = 1;
+console.log(friendsPets);
 // 10 - Add two pets to your `pets` variable
-
+pets += 2; 
+console.log(pets);
 // 11 - Create a constant variable called `allowedPets` and set it to a number value of your choice
 
 // 12 - Create a variable called `result`. Create a conditional:
