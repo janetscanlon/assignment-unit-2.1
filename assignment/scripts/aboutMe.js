@@ -27,7 +27,7 @@ console.log( introduction );
 
 // 6 - Create a variable named `adventurous` and set it to a boolean value (true or false)
 //     Console log the value of `adventurous`
-let adventurous = true;
+let adventurous = false;
 console.log(adventurous);
 
 // 7 - Create a variable named `food`, and set its value to a string of your favorite food
@@ -154,8 +154,7 @@ console.log(luckyResult);
 // 17 -- Rewrite question 12 with a `ternary` operator. You'll need to do research!
 
 
-
-
+adventurous ? console.log("Adventures are great") : console.log("How about we stay home?");
 
 
 
